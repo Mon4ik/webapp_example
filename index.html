@@ -84,7 +84,7 @@
 
         document.querySelector("#main-btn")
             .addEventListener("click", (e) => {
-                let mainbtn = window.Telegram.MainButton
+                let mainbtn = window.Telegram.WebApp.MainButton
                 if (mainbtn.isVisible) {
                     mainbtn.hide()
                     document.querySelector("#main-btn").innerHTML = `<i class="bi bi-eye-fill"></i>`
